@@ -81,14 +81,14 @@ const Game = () =>{
 
             <div className='board'>
                 <div className='move'>
-                    <h1 className='move-heading' style={{margin:"0px"}}>YOU</h1>
+                    <h2 className='move-heading' style={{margin:"0px"}}>YOU</h2>
                     
                     {pmove=="stone" && <img src={stone} alt="" srcset="" className='img'/>}
                     {pmove=="paper" && <img src={paper} alt="" srcset="" className='img'/>}
                     {pmove=="scissor" && <img src={scissor} alt="" srcset="" className='img'/>}
                 </div>
                 <div className='move'>
-                    <h1 className='move-heading' style={{margin:"0px"}}>COMPUTER</h1>
+                    <h2 className='move-heading' style={{margin:"0px"}}>COMPUTER</h2>
                     
                     {cmove=="stone" && <img src={stone} alt="" srcset="" className='img'/>}
                     {cmove=="paper" && <img src={paper} alt="" srcset="" className='img'/>}
