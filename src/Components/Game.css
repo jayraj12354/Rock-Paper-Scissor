@@ -7,7 +7,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 40px;
+    margin-top: 20px;
     font-size: 50px;
 }
 .tag-line{
@@ -15,7 +15,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 40px;
+    margin-top: 20px;
 }
 .scores{
     margin: auto;
@@ -23,14 +23,14 @@
     width:35vw;
     justify-content: space-between;
     align-items: center;
-    margin-top: 40px;
+    margin-top: 20px;
 }
 .board{
     margin: auto;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    margin-top: 40px;
+    margin-top: 20px;
     width:35vw;
 }
 .move{

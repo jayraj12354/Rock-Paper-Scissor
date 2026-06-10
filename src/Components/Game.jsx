@@ -74,9 +74,9 @@ const Game = () =>{
             {result && winner=="tie" && <h1 className='tag-line'> It's a <span className='winner' style={{color:"#39b78d" , paddingLeft:"10px"}}> TIE</span></h1>}
 
             <div className='scores'>
-                <h1>Round : <span style={{color:"#FFD60A",paddingLeft:"10px"}}>{round}</span></h1>
-                <h1>Player : <span style={{color:"#FFD60A",paddingLeft:"10px"}}>{pcount}</span></h1>
-                <h1>Computer : <span style={{color:"#FFD60A",paddingLeft:"10px"}}>{ccount}</span></h1>
+                <h2>Round : <span style={{color:"#FFD60A",paddingLeft:"10px"}}>{round}</span></h2>
+                <h2>Player : <span style={{color:"#FFD60A",paddingLeft:"10px"}}>{pcount}</span></h2>
+                <h2>Computer : <span style={{color:"#FFD60A",paddingLeft:"10px"}}>{ccount}</span></h2>
             </div>
 
             <div className='board'>
@@ -96,7 +96,7 @@ const Game = () =>{
                 </div>
             </div>
 
-            {result && <h1 className='tag-line' style={{marginTop:"50px",marginBottom:"20px"}}>What's your next Move ?</h1> }
+            {result && <h1 className='tag-line' style={{marginTop:"50px"}}>What's your next Move ?</h1> }
 
             <div className='grp-btn' >
 
