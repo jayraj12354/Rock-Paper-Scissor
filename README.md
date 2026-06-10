@@ -1,16 +1,124 @@
-# React + Vite
+# 🎮 Rock Paper Scissors Game
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern and interactive **Rock Paper Scissors** game built using **React.js**. Challenge the computer, track your score, and enjoy a clean gaming interface with responsive design and smooth user experience.
 
-Currently, two official plugins are available:
+## 🚀 Live Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+🔗 https://rock-paper-scissor-jd.netlify.app/
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 📌 Features
 
-## Expanding the ESLint configuration
+* 🎯 Play Rock, Paper, Scissors against the computer
+* 🤖 Random computer move generation
+* 🏆 Real-time winner detection
+* 📊 Score tracking for Player and Computer
+* 🔄 Reset game functionality
+* 🎨 Modern gaming-inspired UI
+* 📱 Responsive design for different screen sizes
+* ⚡ Fast and lightweight React application
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🛠️ Built With
+
+* React.js
+* JavaScript (ES6+)
+* CSS3
+* Vite
+* Netlify
+
+---
+
+## 🎮 Game Rules
+
+* 🪨 Stone beats Scissors
+* 📄 Paper beats Stone
+* ✂️ Scissors beats Paper
+* Same moves result in a Tie
+
+---
+
+## 📂 Project Structure
+
+```bash
+src/
+├── Assets/
+│   ├── stone.png
+│   ├── paper.png
+│   └── scissor.png
+├── Components/
+│   └── Game.jsx
+├── App.jsx
+├── main.jsx
+└── Game.css
+```
+
+---
+
+## ⚙️ Installation
+
+Clone the repository:
+
+```bash
+git clone https://github.com/jayraj12354/Rock-Paper-Scissor.git
+```
+
+Navigate to the project directory:
+
+```bash
+cd Rock-Paper-Scissor
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Start the development server:
+
+```bash
+npm run dev
+```
+
+---
+
+## 📸 Preview
+
+Add a screenshot of your project here:
+
+```md
+![Project Preview](./preview.png)
+```
+
+---
+
+## 🌟 Future Improvements
+
+* Game sound effects
+* Winning streak tracker
+* Difficulty levels
+* Game animations
+* Dark/Light theme switcher
+* Multiplayer mode
+
+---
+
+## 👨‍💻 Author
+
+**Jayraj Deshmukh**
+
+B.Tech CSE (AI & ML) Student
+Competitive Programmer | Web Developer | Problem Solver
+
+GitHub: https://github.com/jayraj12354
+
+---
+
+## 📄 License
+
+This project is open source and available under the MIT License.
+
+⭐ If you like this project, consider giving it a star on GitHub!
