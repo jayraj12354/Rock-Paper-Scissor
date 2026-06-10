@@ -8,6 +8,7 @@
     justify-content: center;
     align-items: center;
     margin-top: 40px;
+    font-size: 50px;
 }
 .tag-line{
     margin: auto;
@@ -19,7 +20,7 @@
 .scores{
     margin: auto;
     display: flex;
-    width:50vw;
+    width:35vw;
     justify-content: space-between;
     align-items: center;
     margin-top: 40px;
@@ -30,7 +31,7 @@
     justify-content: space-evenly;
     align-items: center;
     margin-top: 40px;
-    width:50vw;
+    width:35vw;
 }
 .move{
     margin: auto;
@@ -84,7 +85,7 @@
    justify-content: space-around;
    align-self: center;
    margin: auto;
-   width: 70vw;
+   width: 50vw;
 }
 .reset{
     background-color: #8B5CF6;

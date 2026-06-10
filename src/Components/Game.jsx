@@ -67,28 +67,28 @@ const Game = () =>{
                 <span className='react' style={{color:" rgb(129, 247, 222)" , paddingLeft:"15px"}}>React</span>
             </h1>
 
-            {!result && <h2 className='tag-line'>You Can Start</h2> }
+            {!result && <h1 className='tag-line'>You Can Start</h1> }
             
-            {result && winner=="you" && <h2 className='tag-line'> You <span className='winner' style={{color:"rgb(129, 247, 222)" , paddingLeft:"10px"}}> WON</span></h2>}
-            {result && winner=="comp" && <h2 className='tag-line'> You <span className='winner' style={{color:"#FF3131" , paddingLeft:"10px"}}> LOOSE</span></h2>}
-            {result && winner=="tie" && <h2 className='tag-line'> It's a <span className='winner' style={{color:"#39b78d" , paddingLeft:"10px"}}> TIE</span></h2>}
+            {result && winner=="you" && <h1 className='tag-line'> You <span className='winner' style={{color:"rgb(129, 247, 222)" , paddingLeft:"10px"}}> WON</span></h1>}
+            {result && winner=="comp" && <h1 className='tag-line'> You <span className='winner' style={{color:"#FF3131" , paddingLeft:"10px"}}> LOOSE</span></h1>}
+            {result && winner=="tie" && <h1 className='tag-line'> It's a <span className='winner' style={{color:"#39b78d" , paddingLeft:"10px"}}> TIE</span></h1>}
 
             <div className='scores'>
-                <h3>Round : <span style={{color:"#FFD60A",paddingLeft:"10px"}}>{round}</span></h3>
-                <h3>Player : <span style={{color:"#FFD60A",paddingLeft:"10px"}}>{pcount}</span></h3>
-                <h3>Computer : <span style={{color:"#FFD60A",paddingLeft:"10px"}}>{ccount}</span></h3>
+                <h1>Round : <span style={{color:"#FFD60A",paddingLeft:"10px"}}>{round}</span></h1>
+                <h1>Player : <span style={{color:"#FFD60A",paddingLeft:"10px"}}>{pcount}</span></h1>
+                <h1>Computer : <span style={{color:"#FFD60A",paddingLeft:"10px"}}>{ccount}</span></h1>
             </div>
 
             <div className='board'>
                 <div className='move'>
-                    <h4 className='move-heading' style={{margin:"0px"}}>YOU</h4>
+                    <h1 className='move-heading' style={{margin:"0px"}}>YOU</h1>
                     
                     {pmove=="stone" && <img src={stone} alt="" srcset="" className='img'/>}
                     {pmove=="paper" && <img src={paper} alt="" srcset="" className='img'/>}
                     {pmove=="scissor" && <img src={scissor} alt="" srcset="" className='img'/>}
                 </div>
                 <div className='move'>
-                    <h4 className='move-heading' style={{margin:"0px"}}>COMPUTER</h4>
+                    <h1 className='move-heading' style={{margin:"0px"}}>COMPUTER</h1>
                     
                     {cmove=="stone" && <img src={stone} alt="" srcset="" className='img'/>}
                     {cmove=="paper" && <img src={paper} alt="" srcset="" className='img'/>}
@@ -96,9 +96,9 @@ const Game = () =>{
                 </div>
             </div>
 
-            {result && <h2 className='tag-line'>What's your next Move ?</h2> }
+            {result && <h1 className='tag-line' style={{marginTop:"50px",marginBottom:"20px"}}>What's your next Move ?</h1> }
 
-            <div className='grp-btn'>
+            <div className='grp-btn' >
 
                 <button className='btns' onClick={()=>{playerMove("stone")}} >STONE</button>
                 <button className='btns' onClick={()=>{playerMove("paper")}} >PAPER</button>
